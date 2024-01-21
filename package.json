@@ -1,6 +1,6 @@
 {
-  "name": "node-csv",
-  "version": "1.0.0",
+  "name": "csv-datanode",
+  "version": "1.0.1",
   "description": "The CSV-Node module is a library for NodeJS that enables loading, writing, and data verification when operating with CSV files",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
