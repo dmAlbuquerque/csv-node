@@ -1,24 +1,11 @@
-# Template Node Typescript
+# Introduction
+The CSV-Node module is a library for NodeJS that enables loading, writing, and data verification when operating with CSV files. CSV Node supports native JavaScript Promises, boasts a straightforward API, and is extensively tested and optimized for high performance.
 
-## Clonando o Projeto
-```
-https://github.com/dmAlbuquerque/template_node_typescript.git
-```
+This library incorporates intelligent features to prevent common errors that could compromise data integrity when handling CSV files, such as mixing values due to a missing entry.
 
-## Instalando as Dependências
-```
-npm i
-```
+Therefore, CSV-Node is a robust and reliable tool for efficient manipulation of data in CSV format, ensuring integrity and avoiding common issues during the processing of these files.
 
-## Buildando o Projeto
+# Install 
 ```
-/* Para Produção */
-npm run build
-```
-
-ou
-
-```
-/* Para Desenvolvimento */
-npm run dev
+npm install csv-node
 ```

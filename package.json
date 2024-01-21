@@ -1,22 +1,22 @@
 {
-  "name": "template_library_typescript",
+  "name": "csv-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
+  "description": "The CSV-Node module is a library for NodeJS that enables loading, writing, and data verification when operating with CSV files. CSV Node supports native JavaScript Promises, boasts a straightforward API, and is extensively tested and optimized for high performance. This library incorporates intelligent features to prevent common errors that could compromise data integrity when handling CSV files, such as mixing values due to a missing entry. Therefore, CSV-Node is a robust and reliable tool for efficient manipulation of data in CSV format, ensuring integrity and avoiding common issues during the processing of these files.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "prepare": "npm run build",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Albuquerque",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.2",
-    "@types/node": "^20.4.1",
+    "@types/node": "^20.11.5",
     "jest": "^29.6.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "axios": "^1.4.0",
