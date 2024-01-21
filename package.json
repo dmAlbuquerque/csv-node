@@ -1,5 +1,5 @@
 {
-  "name": "template_library_typescript",
+  "name": "node-csv",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/src/index.js",
@@ -10,8 +10,12 @@
     "prepare": "npm run build",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmAlbuquerque/csv-node.git"
+  },
+  "author": "Daniel Albuquerque",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.2",
     "@types/node": "^20.4.1",
